@@ -38,7 +38,7 @@ def city_elevation(city, elevation):
        
     
     else:
-        print("Please probide a sting for the City value")
+        print("Please provide a string for the City value")
 
        
 city = input("City:")
