@@ -32,13 +32,13 @@ def city_elevation(city, elevation):
                 ans_elev = honey_data[sp][0]
             c_poss += 1 #moves the current possition to the next possition
                 
-        print("The most close distance for the given elevation is:", ans_elev)
+        print("The closest distance for the given elevation is:", ans_elev)
         return ans_elev
     
        
     
     else:
-        print("Please probide a sting for the City value")
+        print("Please provide a string for the City value")
 
        
 city = input("City:")
